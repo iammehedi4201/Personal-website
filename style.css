@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+body
+{
+	width:100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section
+{
+	height:650px;
+	margin-bottom:130px;
+	box-shadow:5px 5px 10px grey;
+}
+
+/*Header-section start Form here*/
+
+.header-section
+{
+  
+   background-image:url("personal-website/header-bg.png");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+.header-section .half-width
+{
+	width:40%;
+	margin-left:5%;
+	padding:1%;
+	float:left;
+}
+#text1
+{
+	margin-top:30px;
+}
+.header-section .half-width h2
+{
+   font-size:30px;
+}
+
+.header-section .half-width h1
+{
+  font-size:44px;
+  color:#DECF00;
+}
+.header-section .half-width p
+{
+	font-size:16px;
+	color:grey;
+}
+
+.header-section .half-width img
+{
+	width:100%;
+}
+.header-section .half-width  .link-button
+{    
+	display:inline-block;
+	padding:10px 20px;
+	color:white;
+	font-size:18px;
+	font-weight:600;
+	background-color:orange;
+	text-decoration:none;
+	border:2px solid pink;
+	border-radius:4px;
+}
+
+/*Biography-section css start form here */
+
+.biography-section
+{
+  
+   background-image:url("personal-website/biography-bg.png");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+.biography-section .half-width
+{
+	width:40%;
+	margin-left:5%;
+	padding:1%;
+	float:left;
+
+}
+
+#text2
+{
+	margin-top:70px;
+}
+
+
+.biography-section .half-width h1
+{
+  font-size:35px;
+  color:#DECF00;
+}
+.biography-section .half-width p
+{
+	font-size:16px;
+	color:grey;
+}
+
+.biography-section .half-width img
+{
+	width:100%;
+}
+.biography-section .half-width  .link-button
+{    
+	display:inline-block;
+	padding:10px 20px;
+	color:white;
+	font-size:18px;
+	font-weight:600;
+	background-color:orange;
+	text-decoration:none;
+	border:2px solid pink;
+	border-radius:4px;
+}
+
+/*Latest-section css start form here */
+
+.latest-section
+{
+	 background-image:url("personal-website/latest-work-bg.png");
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position:right;
+     height:500px;
+}
+.latest-section .half-width
+{
+    width:25%;
+	margin-left:5%;
+	padding:1%;
+	float:left;
+
+}
+.latest-section .half-width img
+{
+	width:100%;
+}
+
+.latest-section  h1
+{
+	font-size:40px;
+	text-align:center;
+	margin-bottom:60px;
+	color:#FF7F27;
+}
+
+/*experiences-area css start form here*/
+
+.experiences-area
+{
+	background-image:url("img/exp-bg.png");
+   background-repeat:no-repeat;
+   background-position:left;
+   background-size:82px;
+   height:500px;
+}
+
+.experiences-area .half-width 
+{
+	width:40%;
+	float:left;
+	margin-left:5%;
+	padding:1%;
+	box-shadow:10px 10px 40px gray;
+	height:60%;
+	border-radius:5px;
+	background-color:white;
+
+}
+.experiences-area h1
+{
+	margin-left:65px;
+}
+
+.experiences-area .half-width  p
+{
+	color:#696969;
+}
+.experiences-area .half-width  h2
+{
+   font-size:35px;
+
+}
+.experiences-area h1
+{
+	font-size:45px;
+}
+
+#full-stack
+{
+	border-left:10px solid #FF9A75;
+}
+#baby-stack
+{
+	border-left:10px solid #00E6FF;
+}
+
+
+/*Information-Section css start form here*/
+
+.informaion-section
+{
+     text-align:center;
+     background-image:url("personal-website/footer-bg.png");
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:600px;
+
+}
+
+.wrapper
+{
+	width:50%;
+	margin:0px auto;
+}
+
+.informaion-section h2
+{  
+   
+  font-size:35px;
+  color: #19F0D0;
+}
+.informaion-section p
+{
+	color:#1E1E1E;
+	margin-top:25px; 
+	font-weight:bold;
+}
+
+.informaion-section .app-ceo
+{
+	margin:0px;
+	padding:0px;
+}
+
+.informaion-section .app-ceo h5
+{
+   font-size:20px;
+   margin-bottom:-20px;
+   color:#E85283;
+  
+}
+.informaion-section .app-ceo p
+{  
+   
+   color:grey;
+   font-size:15px;
+
+}
+
+.informaion-section .contact
+{
+   background-color:#EC4F92;
+   margin-top:80px;
+   height:150px;
+   border-radius:5px;
+   border:2px solid pink;
+}
+.informaion-section .contact p
+
+{
+  color:white;
+  font-size:15px;
+}
+
+.informaion-section .contact a
+{
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  font-weight:900;
+}
+
+/*footer css start form here*/
+footer p {
+  text-align: center;
+}
